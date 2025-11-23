@@ -4,7 +4,14 @@
   place-items: center;
   min-height: 100dvh;
   padding: 16px;
-  background: linear-gradient(145deg, #0096FF 0%, #00A36C 50%, #FFD700 100%);
+   background: linear-gradient(
+    145deg,
+    #29319C 0%,
+    #00BA42 25%,
+    #DF2125 50%,
+    #0A8934 75%,
+    #FFFF00 100%
+  );
 }
 
 /* Card branco central (sombra leve e arredondado) */

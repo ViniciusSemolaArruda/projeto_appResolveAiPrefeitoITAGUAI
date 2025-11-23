@@ -142,7 +142,13 @@
   grid-template-columns: 64px 1fr;  /* ícone maior */
   align-items: center;
   gap: 18px;
-  background: linear-gradient(90deg, #0F79F3 0%, #0AA06E 100%);
+  background: linear-gradient(
+  90deg,
+  #0F79F3 0%,
+  #0AA06E 60%,
+  #D7FF00 100%
+);
+
   color: #fff;
   text-decoration: none;
   padding: 28px 22px;              /* mais altura e espaçamento interno */

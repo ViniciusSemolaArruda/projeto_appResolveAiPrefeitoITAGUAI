@@ -6,40 +6,33 @@
   <title>Showroom Mobile – Sobre a Prefeitura</title>
   <base href="/" />
 
-  <!-- CSS base -->
   <link rel="stylesheet" href="/src/styles/reset.css" />
   <link rel="stylesheet" href="/src/styles/styles.css" />
-  <!-- CSS desta página -->
   <link rel="stylesheet" href="/src/screens/About/about.css" />
 
-  <!-- Helpers + Script desta página -->
   <script src="/src/js/common.js" defer></script>
   <script src="/src/js/about.js" defer></script>
 </head>
 <body>
   <main class="app-frame" id="page-about">
 
-    <!-- Header igual às outras telas -->
     <header class="home-header">
       <div class="home-brand">
-        <img src="/src/assets/img/logo.png" alt="Logo" class="home-logo" />
+        <img src="/src/assets/img/BRASAO.png" alt="Brasão Paty do Alferes" class="home-logo" />
         <span class="home-title">Resolve Aí Prefeito</span>
       </div>
       <div class="home-actions">
-    <!-- Botão de notificação com bolinha -->
-    <button class="icon-btn notify-btn" aria-label="Notificações" id="btn-notify">
-      <img src="/src/assets/img/notificacao.png" alt="Notificações" />
-      <span class="notify-dot" aria-hidden="true"></span>
-    </button>
+        <button class="icon-btn notify-btn" aria-label="Notificações" id="btn-notify">
+          <img src="/src/assets/img/notificacao.png" alt="Notificações" />
+          <span class="notify-dot" aria-hidden="true"></span>
+        </button>
 
-    <!-- Sair reinicia o app -->
-    <a class="icon-btn" aria-label="Sair" href="/index.html" id="btn-logout">
-      <img src="/src/assets/img/sair.png" alt="Sair" />
-    </a>
-  </div>
+        <a class="icon-btn" aria-label="Sair" href="/index.html" id="btn-logout">
+          <img src="/src/assets/img/sair.png" alt="Sair" />
+        </a>
+      </div>
     </header>
 
-    <!-- Sub-barra: Voltar (logo abaixo do header) -->
     <div class="report-subheader">
       <button class="back-link" id="btn-back-about" aria-label="Voltar">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
@@ -51,7 +44,6 @@
 
     <section class="about-screen">
 
-      <!-- Card de introdução (link/teaser) -->
       <article class="about-card intro-link">
         <a href="#" class="intro-anchor" aria-disabled="true">
           <h2 class="intro-title">Sobre a Prefeitura</h2>
@@ -59,30 +51,27 @@
         </a>
       </article>
 
-      <!-- HERO com imagem e texto sobreposto -->
-      <article class="hero-card" style="--hero:url('/src/assets/img/cidade-hero.jpg')">
+      <article class="hero-card" style="--hero:url('/src/assets/img/prefeitura.png')">
         <div class="hero-overlay">
-          <h2 class="hero-title">Engenheiro Paulo<br/>de Frontin</h2>
-          <p class="hero-sub">Uma cidade em constante evolução</p>
+          <h2 class="hero-title">Paty<br/>do Alferes</h2>
+          <p class="hero-sub">A Terra do Tomate no Vale do Café</p>
         </div>
       </article>
 
-      <!-- Nossa História -->
       <article class="about-card">
         <h3 class="section-title">Nossa História</h3>
         <p class="p">
-          Engenheiro Paulo de Frontin é um município brasileiro do estado do Rio de Janeiro.
-          Com uma população acolhedora e uma rica história, nossa cidade se destaca pelo
-          compromisso com o desenvolvimento sustentável e a qualidade de vida de seus habitantes.
+          Localizada no Vale do Café, Paty do Alferes tem suas raízes no século XVIII, com a abertura do Caminho Novo. 
+          A cidade foi palco de momentos marcantes, como a histórica revolta de Manoel Congo, e desenvolveu-se através 
+          dos ciclos da cana-de-açúcar e do café.
         </p>
         <p class="p">
-          Nossa administração trabalha diariamente para melhorar a infraestrutura, os serviços
-          públicos e promover o bem-estar de todos os cidadãos. Este aplicativo é mais uma
-          ferramenta para aproximar o poder público da população.
+          Emancipada de Vassouras em 1987, Paty hoje se destaca como o maior produtor de tomate do estado do Rio de Janeiro. 
+          Nossa administração une a tradição agrícola ao desenvolvimento turístico e tecnológico, buscando sempre a 
+          qualidade de vida para a família patiense.
         </p>
       </article>
 
-      <!-- Missão / Visão / Valores / Compromisso -->
       <article class="about-card kpi">
         <div class="kpi-row">
           <div class="kpi-item">
@@ -91,7 +80,7 @@
             </span>
             <div class="kpi-txt">
               <h4>Missão</h4>
-              <p>Promover o desenvolvimento sustentável e a qualidade de vida dos cidadãos através de gestão eficiente e participativa.</p>
+              <p>Promover o desenvolvimento humano e econômico sustentável, valorizando nossa vocação agrícola e turística.</p>
             </div>
           </div>
 
@@ -101,7 +90,7 @@
             </span>
             <div class="kpi-txt">
               <h4>Visão</h4>
-              <p>Ser referência em gestão pública municipal, com transparência, eficiência e inovação em todas as ações.</p>
+              <p>Ser uma cidade referência em gestão eficiente no Vale do Café, conectando tradição e inovação.</p>
             </div>
           </div>
 
@@ -111,7 +100,7 @@
             </span>
             <div class="kpi-txt">
               <h4>Valores</h4>
-              <p>Transparência, ética, respeito, comprometimento e responsabilidade social em todas as nossas ações.</p>
+              <p>Ética, transparência, respeito ao cidadão, valorização rural e responsabilidade social.</p>
             </div>
           </div>
 
@@ -121,61 +110,62 @@
             </span>
             <div class="kpi-txt">
               <h4>Compromisso</h4>
-              <p>Trabalhar incansavelmente para atender às necessidades da população e construir uma cidade melhor para todos.</p>
+              <p>Cuidar da nossa gente, garantindo saúde, educação e infraestrutura de qualidade em todos os bairros.</p>
             </div>
           </div>
 
           <div class="kpi-item">
             <span class="kpi-ic" style="--tint:#009234">
-              <img src="/src/assets/img/prefeito.png" alt="" />
+              <img src="/src/assets/img/prefeito.png" alt="Foto do Prefeito" />
             </span>
             <div class="kpi-txt">
               <h4>Prefeito</h4>
-              <p>MANEKO ARTEMENKO. Prefeito - Engenheiro Paulo De Frontin/ RJ União Brasil - UNIÃO 56.570.196/0001-04 44.</p>
+              <p><strong>DR. JULINHO JUJU</strong><br/>
+              Julio Avelino Oliveira de Moura Junior<br/>
+              Partido Liberal - PL<br/>
+              Gestão 2025-2028</p>
             </div>
           </div>
         </div>
       </article>
 
-      <!-- Dados da Cidade -->
       <article class="about-card facts">
         <h3 class="section-title">Dados da Cidade</h3>
 
         <div class="facts-grid">
           <div class="fact">
             <span class="fact-label">População</span>
-            <strong class="fact-value fact-blue">~15.000</strong>
+            <strong class="fact-value fact-blue">~30.000</strong>
             <small class="fact-hint">habitantes</small>
           </div>
           <div class="fact">
             <span class="fact-label">Área</span>
-            <strong class="fact-value fact-green">110 km²</strong>
+            <strong class="fact-value fact-green">314 km²</strong>
             <small class="fact-hint">território</small>
           </div>
           <div class="fact">
-            <span class="fact-label">Fundação</span>
-            <strong class="fact-value fact-yellow">1959</strong>
-            <small class="fact-hint">emancipação</small>
+            <span class="fact-label">Emancipação</span>
+            <strong class="fact-value fact-yellow">1987</strong>
+            <small class="fact-hint">15 de Dezembro</small>
           </div>
         </div>
       </article>
 
-      <!-- Resolve Aí Prefeito -->
       <article class="about-card appcall">
         <h3 class="section-title section-title-blue">Resolve Aí Prefeito</h3>
         <p class="p">
           O “Resolve Aí Prefeito” foi desenvolvido para facilitar a comunicação entre a
-          população e a prefeitura. Através dele, você pode:
+          população e a Prefeitura de Paty do Alferes. Através dele, você pode:
         </p>
         <ul class="check-list">
-  <li><img src="/src/assets/img/ico-certo.png" alt="" /> Reportar problemas de infraestrutura em tempo real</li>
-  <li><img src="/src/assets/img/ico-certo.png" alt="" /> Acompanhar o status das suas solicitações</li>
-  <li><img src="/src/assets/img/ico-certo.png" alt="" /> Receber notificações sobre atualizações</li>
-  <li><img src="/src/assets/img/ico-certo.png" alt="" /> Contribuir para uma cidade melhor</li>
-</ul>
+          <li><img src="/src/assets/img/ico-certo.png" alt="" /> Reportar problemas de iluminação e vias</li>
+          <li><img src="/src/assets/img/ico-certo.png" alt="" /> Acompanhar o status das suas solicitações</li>
+          <li><img src="/src/assets/img/ico-certo.png" alt="" /> Receber notícias oficiais da cidade</li>
+          <li><img src="/src/assets/img/ico-certo.png" alt="" /> Contribuir para uma Paty mais bonita</li>
+        </ul>
 
         <p class="note">
-          <em>Juntos, podemos fazer de Eng. Paulo de Frontin uma cidade ainda melhor!</em>
+          <em>Juntos, construímos o futuro de Paty do Alferes!</em>
         </p>
       </article>
 
