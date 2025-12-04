@@ -21,35 +21,37 @@
   <main class="app-frame" id="page-home">
     <header class="home-header">
       <div class="home-brand">
-        <img src="./src/assets/img/BRASAO.png" alt="Logo" class="home-logo" />
+        <img src="./src/assets/img/BRASAO.jpg" alt="Logo" class="home-logo" />
         <span class="home-title">Resolve Aí Prefeito</span>
       </div>
       <div class="home-actions">
-    <!-- Botão de notificação com bolinha -->
-    <button class="icon-btn notify-btn" aria-label="Notificações" id="btn-notify">
-      <img src="/src/assets/img/notificacao.png" alt="Notificações" />
-      <span class="notify-dot" aria-hidden="true"></span>
-    </button>
+        <!-- Botão de notificação com bolinha -->
+        <button class="icon-btn notify-btn" aria-label="Notificações" id="btn-notify">
+          <img src="/src/assets/img/notificacao.png" alt="Notificações" />
+          <span class="notify-dot" aria-hidden="true"></span>
+        </button>
 
-    <!-- Sair reinicia o app -->
-    <a class="icon-btn" aria-label="Sair" href="/index.html" id="btn-logout">
-      <img src="/src/assets/img/sair.png" alt="Sair" />
-    </a>
-  </div>
+        <!-- Sair reinicia o app -->
+        <a class="icon-btn" aria-label="Sair" href="/index.html" id="btn-logout">
+          <img src="/src/assets/img/sair.png" alt="Sair" />
+        </a>
+      </div>
     </header>
 
     <section class="home-screen">
       <!-- Hero -->
-      <article class="hero-card" style="--hero:url('/src/assets/img/trem.jpeg')">
+      <article class="hero-card" style="--hero:url('/src/assets/img/trem.jpg')">
         <div class="hero-overlay">
           <h2 class="hero-title">Bem-vindo ao<br/>Resolve Aí Prefeito</h2>
-          <p class="hero-sub">Juntos, podemos tornar Paty do Alferes uma cidade melhor para todos</p>
+          <p class="hero-sub">Juntos, podemos tornar Itaguaí uma cidade melhor para todos</p>
         </div>
       </article>
 
       <!-- CTA principal -->
       <a class="cta-main" href="report.html" role="button" id="open-report">
-        <span class="cta-icon"><img src="./src/assets/img/megafone-com-ondas-sonoras.png" alt="Megafone" /></span>
+        <span class="cta-icon">
+          <img src="./src/assets/img/megafone-com-ondas-sonoras.png" alt="Megafone" />
+        </span>
         <div class="cta-texts">
           <strong>Registrar Nova Ocorrência</strong>
           <small>Reporte problemas na sua cidade</small>
@@ -60,7 +62,9 @@
       <h3 class="section-title">Acesso Rápido</h3>
       <div class="quick-grid">
         <a class="quick-card" href="cases.html">
-          <span class="qc-icon qc-green"><img src="./src/assets/img/documento.png" alt="Ícone Minhas Ocorrências" /></span>
+          <span class="qc-icon qc-green">
+            <img src="./src/assets/img/documento.png" alt="Ícone Minhas Ocorrências" />
+          </span>
           <div class="qc-texts">
             <strong>Minhas Ocorrências</strong>
             <small>Acompanhe seus registros</small>
@@ -68,17 +72,19 @@
         </a>
 
         <a class="quick-card" href="contato.html">
-  <span class="qc-icon qc-red">
-    <img src="./src/assets/img/telefone.png" alt="Ícone Contato" />
-  </span>
-  <div class="qc-texts">
-    <strong>Contato</strong>
-    <small>Telefones e endereços úteis</small>
-  </div>
-</a>
+          <span class="qc-icon qc-red">
+            <img src="./src/assets/img/telefone.png" alt="Ícone Contato" />
+          </span>
+          <div class="qc-texts">
+            <strong>Contato</strong>
+            <small>Telefones e endereços úteis</small>
+          </div>
+        </a>
 
         <a class="quick-card" href="sobre.html">
-          <span class="qc-icon qc-yellow"><img src="./src/assets/img/info.png" alt="Ícone Sobre a Prefeitura" /></span>
+          <span class="qc-icon qc-yellow">
+            <img src="./src/assets/img/info.png" alt="Ícone Sobre a Prefeitura" />
+          </span>
           <div class="qc-texts">
             <strong>Sobre a Prefeitura</strong>
             <small>Conheça nossa história</small>
@@ -94,10 +100,22 @@
         </h3>
 
         <div class="stats-grid">
-          <div class="stat-box pastel-blue"><strong>247</strong><small>Ocorrências<br/>Resolvidas</small></div>
-          <div class="stat-box pastel-green"><strong>18</strong><small>Em Andamento</small></div>
-          <div class="stat-box pastel-yellow"><strong>92%</strong><small>Taxa de<br/>Resolução</small></div>
-          <div class="stat-box pastel-red"><strong>3.2</strong><small>Dias (Média)</small></div>
+          <div class="stat-box pastel-blue">
+            <strong>247</strong>
+            <small>Ocorrências<br/>Resolvidas</small>
+          </div>
+          <div class="stat-box pastel-green">
+            <strong>18</strong>
+            <small>Em Andamento</small>
+          </div>
+          <div class="stat-box pastel-yellow">
+            <strong>92%</strong>
+            <small>Taxa de<br/>Resolução</small>
+          </div>
+          <div class="stat-box pastel-red">
+            <strong>3.2</strong>
+            <small>Dias (Média)</small>
+          </div>
         </div>
       </article>
     </section>

@@ -143,10 +143,12 @@
   align-items: center;
   gap: 18px;
   background: linear-gradient(
-  90deg,
-  #0F79F3 0%,
-  #0AA06E 60%,
-  #D7FF00 100%
+  145deg,
+  #E30713 0%,
+  #FEDB05 18%,
+  #2B9636 40%,
+  #00689F 70%,
+  #736E6B 100%
 );
 
   color: #fff;
